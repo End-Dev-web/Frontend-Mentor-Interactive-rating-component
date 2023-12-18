@@ -1,0 +1,10 @@
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  width: min(100% - 1rem * 2, 64rem);
+  margin-inline: auto;
+}

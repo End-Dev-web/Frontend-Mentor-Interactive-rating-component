@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="card card-1">
+          <div>
+            <img
+              class="radius-full margin-block-end-5"
+              src="./images/icon-star.svg"
+              alt="icon star" />
+          </div>
+          <h2 class="heading-2 padding-block-end-3">How did we do?</h2>
+          <p class="padding-block-end-7 clr-neutral-light-grey">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="spans padding-block-end-7 base-flex">
+            <span
+              class="radius-full flex-center clr-neutral-light-grey"
+              data-rating
+              data-value="1"
+              >1</span
+            >
+            <span
+              class="radius-full flex-center clr-neutral-light-grey"
+              data-rating
+              data-value="2"
+              >2</span
+            >
+            <span
+              class="radius-full flex-center clr-neutral-light-grey"
+              data-rating
+              data-value="3"
+              >3</span
+            >
+            <span
+              class="radius-full flex-center clr-neutral-light-grey"
+              data-rating
+              data-value="4"
+              >4</span
+            >
+            <span
+              class="radius-full flex-center clr-neutral-light-grey"
+              data-rating
+              data-value="5"
+              >5</span
+            >
+          </div>
+          <button
+            class="radius-extra-large bg-primary-orange padding-block-3 clr-neutral-white margin-block-end-2"
+            data-submit>
+            Submit
+          </button>
+        </div>
+        <!-- Thank you state start -->
+        <!-- <div class="span"> -->
+        <div class="message" data-message></div>
+
+        <!-- Thank you state end -->
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
